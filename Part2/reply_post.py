@@ -34,7 +34,7 @@ for submission in subreddit.hot(limit=10):
         # Do a case insensitive search
         if re.search("i love python", submission.title, re.IGNORECASE):
             # Reply to the post
-            submission.reply("I am a bot.")
+            submission.reply("I am a bot. I am also: not a bot.")
             print("Bot replying to : ", submission.title)
 
             # Store the current id into our list
