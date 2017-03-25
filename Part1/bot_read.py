@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import praw
 
-reddit = praw.Reddit('bot1')
+reddit = praw.Reddit('tutorial_bot')
 
 subreddit = reddit.subreddit("learnpython")
 
